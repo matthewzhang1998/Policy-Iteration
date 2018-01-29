@@ -38,7 +38,7 @@ if __name__ == "__main__":
     for s in range(number_states):
         policy.append(0)
         
-    gamma = 0.
+    gamma = 0.8
         
     initialize_prob()
     initialize_reward()
